@@ -1,9 +1,50 @@
-* {
+html, body {
     padding: 0;
     margin: 0;
+}
+
+* {
     box-sizing: border-box;
 }
+
 .container {
     width: 960px;
     margin: 0 auto;
+    position: relative;
 }
+
+.h60 {
+    height: 60px;
+}
+.header {
+    background-color: #bbdbff;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.navigacija {
+    position: absolute;
+    width: 900px;
+    right: 10px;
+}
+
+.navigacija-saraksts {
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.navigacija-saraksts li {
+    display: inline-block;
+}
+
+.nav {
+    background-color: #d0e6ff;
+    padding: 7px 15px;
+    color: rgb(155, 24, 96);
+    text-decoration: none;
+}
+
